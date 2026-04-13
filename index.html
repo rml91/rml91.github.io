@@ -1,28 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
-  <style>
-    body {
-      font-family: Arial;
-      margin: 40px;
-      background-color: #f5f5f5;
-    }
-    h1 {
-      color: #333;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Research Portfolio</title>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            background: #fafafa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 0.2em;
+        }
+
+        h2 {
+            margin-top: 50px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .nav {
+            margin-bottom: 40px;
+        }
+
+        .nav a {
+            margin-right: 15px;
+            font-weight: 500;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .footer {
+            margin-top: 60px;
+            font-size: 0.9em;
+            color: #777;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
 
-  <h1>My Name</h1>
-  <p>Welcome to my website.</p>
+<div class="container">
 
-  <h2>About</h2>
-  <p>I study physics and maths.</p>
+    <h1>Your Name</h1>
+    <p class="subtitle">Physics & Mathematics Student | Research Interests: Gravitation, Quantum Theory</p>
 
-  <h2>Links</h2>
-  <a href="about.html">More about me</a>
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <h2 id="about">About</h2>
+    <p>
+        I am a student in physics and mathematics with a strong interest in theoretical physics,
+        particularly gravitation, quantum field theory, and geometric methods.
+    </p>
+
+    <h2 id="research">Research</h2>
+
+    <div class="card">
+        <h3>Conformal Gravity & Holography</h3>
+        <p>
+            Study of conformal gravity models and their relation to holographic dualities.
+        </p>
+        <p><a href="#">Paper (coming soon)</a></p>
+    </div>
+
+    <div class="card">
+        <h3>Quantum Mechanics & Operator Theory</h3>
+        <p>
+            Work on tensor products, spectral theory, and foundational aspects of quantum systems.
+        </p>
+    </div>
+
+    <h2 id="projects">Projects</h2>
+
+    <div class="card">
+        <h3>LaTeX Notes Repository</h3>
+        <p>Collection of structured lecture notes in analysis, topology, and physics.</p>
+        <p><a href="#">GitHub</a></p>
+    </div>
+
+    <div class="card">
+        <h3>Mathematical Anki Decks</h3>
+        <p>Custom flashcards with LaTeX integration for efficient learning.</p>
+    </div>
+
+    <h2 id="cv">CV</h2>
+    <p>
+        Download my CV <a href="#">here</a>.
+    </p>
+
+    <h2 id="contact">Contact</h2>
+    <p>
+        Email: your.email@example.com <br>
+        GitHub: <a href="#">github.com/yourusername</a>
+    </p>
+
+    <div class="footer">
+        © 2026 Your Name
+    </div>
+
+</div>
 
 </body>
 </html>
