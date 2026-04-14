@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Research Portfolio</title>
+    <title>Raphael Magron-Lorenzo | Research Portfolio</title>
 
     <style>
         body {
@@ -69,14 +69,31 @@
             text-align: center;
         }
     </style>
+
+    <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    MathJax.typeset();
+});
+</script>
 
 <body>
 
 <div class="container">
 
     <h1>Raphael Magron-Lorenzo</h1>
-    <p class="subtitle">Physics & Mathematics Student | Research Interests: Gravitation, Quantum Theory</p>
+    <p class="subtitle">Physics & Mathematics Student | Research Interests: Cosmology, Dynamical systems</p>
 
     <div class="nav">
         <a href="#about">About</a>
@@ -88,8 +105,8 @@
 
     <h2 id="about">About</h2>
     <p>
-        I am a student in physics and mathematics. Research interests include dynamical 
-        system and Markov chains, gravity and cosmology. 
+        I am an undergraduate student in physics and mathematics at the University of St Andrews. 
+        Research interests include dynamical system and Markov chains, gravity and cosmology. 
 
     </p>
 
